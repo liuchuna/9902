@@ -1,0 +1,48 @@
+Log file created at: 2019/06/27 12:26:13
+Running on machine: Q043996MHFUDKR2
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0627 12:26:13.228782  8024 log.cpp:114] [qos_t] SetUserGuid, user_guid = {07473CF5-E00D-4AFD-896C-E1108CD92D54}
+E0627 12:26:13.236776  8024 log.cpp:114] [Qos_http_handler]report qos id= 13116
+E0627 12:26:13.236776  8024 log.cpp:114] [main] invalid game id(0)
+E0627 12:26:13.236776  9700 log.cpp:114] [Qos_http_handler] worker start
+E0627 12:26:13.236776  8024 log.cpp:114] [ProcessStateMachine] GetWegamePathFromBarIni, ini not exist
+E0627 12:26:13.237778  8024 log.cpp:114] [ProcessStateMachine] GetWegamePathFromReg, find from current user wegame.exe
+E0627 12:26:13.237778  9700 log.cpp:114] [Qos_http_handler] PushTask success, seq=1, qos_id=13116
+E0627 12:26:13.237778  8024 log.cpp:114] [ProcessStateMachine] IsWeGamePathValid, path valid=D:\Program Files\WeGame
+E0627 12:26:13.239811  8024 log.cpp:114] [ProcessStateMachine] CheckWeGameVerValid, ver=3.21.4.5944
+E0627 12:26:13.241818  8024 log.cpp:114] [ProcessStateMachine] GetWegameInstallPath, wegame path=D:\Program Files\WeGame\tgp_daemon.exe
+E0627 12:26:13.242806  8024 log.cpp:114] [ProcessStateMachine] IsNetBarEnv false: wegame not netbar version
+E0627 12:26:13.242806  8024 log.cpp:114] [WeGameLauncerApp] IsCurProcessVerLatest true: update_ver is empty.
+E0627 12:26:13.242806  8024 log.cpp:114] [WeGameLauncerApp] wegame is not running, and this launcer is the main one, so we check wegame
+E0627 12:26:13.248808  8024 log.cpp:114] [WegameHealthHelper] LoadWegameHealth success, LoadLibrary(D:\Program Files\WeGame\wegame_health.dll) h=253165568.
+E0627 12:26:13.248808  8024 log.cpp:114] [WegameHealthHelper] LoadWegameHealth Success. All Done.
+E0627 12:26:13.254825  8024 log.cpp:114] [WeGameLauncerApp] LoadWegameHealth, wegame_health_ver=2017100311
+E0627 12:26:13.254825  8024 log.cpp:114] [WegameHealth] OnStateChange, new state(0)
+E0627 12:26:13.303006  8024 log.cpp:114] [WegameHealth] OnStateChange, new state(3)
+E0627 12:26:13.367144  8024 log.cpp:114] [LaunchWegameState] Impl::LaunchProcess, cmd=[D:\Program Files\WeGame\tgp_daemon.exe -launcher={"ad_begin":"","ad_end":"","ad_path":"","ad_type":0,"ad_url":"","ad_video":"","custom":"","game_id":0,"launcher_ver":"1.1.0.67"}
+ StartFor=0 AddPath="C:\Users\Administrator"]
+E0627 12:26:13.517524  8024 log.cpp:114] [LaunchWegameState] Impl::LaunchProcess success, pid=452, ph=1012
+E0627 12:26:13.517524  8024 log.cpp:114] [WegameHealth] OnStateChange, new state(4)
+E0627 12:26:14.465083  9700 log.cpp:114] [Qos_http_handler] OnEnd.
+E0627 12:26:14.467104  9700 log.cpp:114] [Qos_http_handler] qos report success: qos_id=13116, seq=1, response_code=200, total_time=1.235, conn_time=0.172, response:
+E0627 12:26:14.467104  9700 log.cpp:114] [Qos_http_handler] Cleanup.
+E0627 12:43:18.024375  8024 log.cpp:114] [WegameHealth] OnStateChange, new state(5)
+E0627 12:43:18.091527  8024 log.cpp:114] [Qos_http_handler]report qos id= 21818
+E0627 12:43:18.091527  8024 log.cpp:114] [Qos_http_handler] WaitForStop begin (timeout:5000): 
+E0627 12:43:18.111583  9700 log.cpp:114] [Qos_http_handler] PushTask success, seq=2, qos_id=21818
+E0627 12:43:19.136014  9700 log.cpp:114] [Qos_http_handler] wait for timeout,counting_stop_ms=5000
+E0627 12:43:19.186412  9700 log.cpp:114] [Qos_http_handler] wait for timeout,counting_stop_ms=4937
+E0627 12:43:19.236583  9700 log.cpp:114] [Qos_http_handler] wait for timeout,counting_stop_ms=4890
+E0627 12:43:19.236583  9700 log.cpp:114] [Qos_http_handler] wait for timeout,counting_stop_ms=4843
+E0627 12:43:19.236583  9700 log.cpp:114] [Qos_http_handler] wait for timeout,counting_stop_ms=4797
+E0627 12:43:19.256705  9700 log.cpp:114] [Qos_http_handler] OnEnd.
+E0627 12:43:19.256705  9700 log.cpp:114] [Qos_http_handler] qos report success: qos_id=21818, seq=2, response_code=200, total_time=1.157, conn_time=0.125, response:
+E0627 12:43:19.256705  9700 log.cpp:114] [Qos_http_handler] Cleanup.
+E0627 12:43:19.256705  9700 log.cpp:114] [Qos_http_handler] wait for timeout,counting_stop_ms=4797
+E0627 12:43:19.358070  9700 log.cpp:114] [Qos_http_handler] wait for timeout,counting_stop_ms=4797
+E0627 12:43:19.358070  9700 log.cpp:114] [Qos_http_handler] OnEnd.
+E0627 12:43:19.358070  9700 log.cpp:114] [Qos_http_handler] Cleanup.
+E0627 12:43:19.358070  9700 log.cpp:114] [Qos_http_handler] worker end
+E0627 12:43:19.358070  8024 log.cpp:114] [Qos_http_handler] WaitForStop end (timeout_stopped:false): 
+E0627 12:43:19.358070  8024 log.cpp:114] [main]qos WaitForStop success
+E0627 12:43:19.358070  8024 log.cpp:114] [main] process exit.
